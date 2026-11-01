@@ -1,0 +1,19 @@
+{
+  "name": "canteenflow",
+  "version": "1.0.0",
+  "description": "A simple academic canteen ordering application using MongoDB and Redis.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "redis": "^4.7.0"
+  }
+}
